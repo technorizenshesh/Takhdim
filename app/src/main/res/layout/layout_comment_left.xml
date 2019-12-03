@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/ly_user"
+        android:layout_width="100dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/user_image"
+        android:layout_gravity="center"
+        android:src="@drawable/user_new"/>
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:gravity="center"
+            android:textSize="16sp"/>
+    </LinearLayout>
+<android.support.v7.widget.CardView
+    android:layout_toRightOf="@+id/ly_user"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="2dp"
+    android:layout_marginRight="10dp"
+    app:cardCornerRadius="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CommentsCommentsCommentsCommentsCommentsComments"
+            android:padding="8dp"
+            android:textColor="#000"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21-11-19 12:08 PM"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp"
+            android:layout_gravity="right"
+            android:textSize="14sp"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+</RelativeLayout>

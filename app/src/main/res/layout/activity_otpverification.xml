@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.LoginActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/lay_head"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/img_cross"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:src="@drawable/cross" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="OTP Verification"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#80000000" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txt_ex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_marginTop="20dp"
+                android:text="Please enter the 4-digit code sent to you at 91317 20."
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/edt_one"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_toRightOf="@+id/img_mobile"
+                    android:background="@drawable/box"
+                    android:maxLength="1"
+                    android:inputType="number"
+                    android:gravity="center"
+                    android:layout_margin="3dp"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/edt_two"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_toRightOf="@+id/img_mobile"
+                    android:background="@drawable/box"
+                    android:maxLength="1"
+                    android:inputType="number"
+                    android:gravity="center"
+                    android:layout_margin="3dp"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/edt_three"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_toRightOf="@+id/img_mobile"
+                    android:background="@drawable/box"
+                    android:maxLength="1"
+                    android:inputType="number"
+                    android:gravity="center"
+                    android:layout_margin="3dp"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/edt_four"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_toRightOf="@+id/img_mobile"
+                    android:background="@drawable/box"
+                    android:maxLength="1"
+                    android:inputType="number"
+                    android:gravity="center"
+                    android:layout_margin="3dp"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/edt_five"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_toRightOf="@+id/img_mobile"
+                    android:background="@drawable/box"
+                    android:maxLength="1"
+                    android:inputType="number"
+                    android:gravity="center"
+                    android:layout_margin="3dp"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/edt_six"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_toRightOf="@+id/img_mobile"
+                    android:background="@drawable/box"
+                    android:maxLength="1"
+                    android:inputType="number"
+                    android:gravity="center"
+                    android:layout_margin="3dp"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true" />
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_verify"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn"
+                android:text="Verify"
+                android:textAllCaps="false"
+                android:textColor="#FFF" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "558575596291",
+    "firebase_url": "https://takhdim-d9bf0.firebaseio.com",
+    "project_id": "takhdim-d9bf0",
+    "storage_bucket": "takhdim-d9bf0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558575596291:android:f1d73fe22acc1c18",
+        "android_client_info": {
+          "package_name": "com.techno.takhdim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558575596291-2rg8b9gaqllh1mtghj9ivk6ul9l5i2m6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techno.takhdim",
+            "certificate_hash": "8bc0be3bcc3e671e098e4f9fc51b7de5999e5c7f"
+          }
+        },
+        {
+          "client_id": "558575596291-trcnkpcfm0ormeus0v4mldh34v6vi6sn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8HMPbR3TsZw8JdhSI5lJUgJj-snJ0kV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558575596291-trcnkpcfm0ormeus0v4mldh34v6vi6sn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
